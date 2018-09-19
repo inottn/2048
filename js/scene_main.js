@@ -78,7 +78,6 @@ class SceneMain extends Scene {
   init() {
     this.eventChange()
     this.initStatus = true
-    test.box = this.box
   }
 
   update() {
