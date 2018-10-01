@@ -28,6 +28,7 @@ class Blocks {
       let x = rondomBetweenNumbers(1, this.horizontalCellCount + 1, true),
           y = rondomBetweenNumbers(1, this.verticalCellCount + 1, true),
           level = rondomBetweenNumbers(levelRange[0], levelRange[1], true)
+          
       if (!this.detectHasBlock(x, y)) {
         const block = this.initBlock(x, y, level)
 

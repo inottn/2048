@@ -86,6 +86,6 @@ class SceneMain extends Scene {
 
   draw(ctx) {
     this.box.draw(ctx)
-    // this.score.draw(ctx)
+    this.score.draw(ctx)
   }
 }

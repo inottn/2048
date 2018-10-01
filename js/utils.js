@@ -36,6 +36,12 @@ const isStorageSupported = () => {
   }
 }
 
+const calculateCanvasWidth = () => {
+  if (detectMob()) {
+    // config.canvasWidth = .8 *
+  }
+}
+
 const fillRectByCenter = (ctx, centerX, centerY, horizontalSideLength, verticalSideLength = horizontalSideLength) => {
   ctx.fillRect(centerX - horizontalSideLength / 2, centerY - verticalSideLength / 2, horizontalSideLength, verticalSideLength)
 }

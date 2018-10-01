@@ -26,6 +26,6 @@ class Game {
         this.replaceScene(this.currentScene.afterScene)
       }
       this.__start()
-    });
+    })
   }
 }
